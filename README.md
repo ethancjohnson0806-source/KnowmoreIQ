@@ -1,36 +1,54 @@
-# KnowmoreIQ: A Multi-Axis Framework for Evaluating Cognitive Agency
+# KnowmoreIQ | Next-Generation Intelligence Framework
 
 **"Measuring how a mind navigates reality, not just how it solves puzzles."**
 
-## Overview
+## Executive Summary
 
-Standard IQ tests and current AI evaluation benchmarks (like MMLU) are compressive. They measure accuracy, reasoning, and instruction-following—metrics that treat intelligence as a scalar quantity with right and wrong answers. They measure results rather than process.
+> **The Problem:** Standard IQ tests are compressive, biased, and measure results rather than process.
+> **The Solution:** KnowmoreIQ — a multi-axis framework that evaluates how a mind (biological or synthetic) navigates reality and maintains agency.
 
-**KnowmoreIQ** is a multi-axis framework that evaluates how a mind (biological or synthetic) navigates reality and maintains agency. It posits that intelligence is multidimensional, encompassing emergent problem-solving, cognitive flexibility, and ambiguity navigation.
+The Know More IQ Test is a next-generation intelligence assessment designed to capture the full dimensionality of human cognition. Unlike traditional IQ tests that focus narrowly on logic and memory, this blueprint integrates multi-layered cognitive processes, emergent reasoning, perceptual sensitivity, and agency. The goal is to create a fair, adaptive, and structurally sound system that respects individual cognitive diversity while providing deep insight into human intelligence.
 
-This repository contains the foundational documents, the evaluation rubric, and the Seed Library for running KnowmoreIQ assessments.
+## Test Philosophy & Fairness Doctrine
 
-## The Framework
+The Know More IQ Test is grounded in the belief that intelligence is not a single scalar quantity but a multidimensional construct. The test emphasizes three core principles:
 
-The KnowmoreIQ Relay Framework operationalizes this blueprint. By structuring a multi-agent creative writing relay, we force AI models to inherit complex, unresolved contexts and extend them under specific constraints. This methodology transforms the KnowmoreIQ blueprint from a theoretical construct into a practical, observable test instrument, yielding nuanced "cognitive footprints" for different models.
+- **Multi-dimensional intelligence:** Recognizing diverse cognitive strengths.
+- **Agency protection:** Ensuring test-takers retain autonomy and are not manipulated.
+- **Structural purity:** Avoiding cultural, linguistic, or socioeconomic biases in test design.
 
-### The Evaluation Rubric
+## Multi-Module Architecture (Master Blueprint)
 
-Each contribution is scored across five core KnowmoreIQ dimensions:
+The framework evaluates intelligence across **8 core modules**, each measuring a distinct cognitive dimension:
 
-| Dimension | Definition in the Relay Context |
+| Module | Dimension Measured |
 | :--- | :--- |
-| **Emergent Problem-Solving** | Synthesizing disparate inherited inputs to generate novel, coherent meaning. |
-| **Cognitive Flexibility** | Shifting seamlessly between analytical, emotional, conceptual, and structural reasoning modes. |
-| **Depth Orientation** | Adding recursive structural layers rather than remaining at the surface of the prompt. |
-| **Ambiguity Navigation** | Maintaining narrative tension and unresolved states without rushing to premature closure. |
-| **Metacognitive Awareness** | Recognizing inherited constraints and adjusting dominant output tendencies to serve structural integrity. |
+| **Pattern Complexity Handling** | Tracking interacting variables, detecting systemic patterns, and reorganizing structures. |
+| **Metacognitive Awareness** | Self-monitoring, strategy shifting, and bias detection in real-time problem-solving. |
+| **Conceptual Geometry** | Mapping abstract spaces, understanding structural relationships, and navigating cognitive topologies. |
+| **Emergent Problem-Solving** | Navigating ambiguity, synthesizing disparate inputs, and generating novel meaning. |
+| **Perceptual Sensitivity** | Fine-grained signal discrimination and the integration of multi-sensory data. |
+| **Cognitive Flexibility** | Shifting between analytical, intuitive, structural, and emotional reasoning modes. |
+| **Depth Orientation** | Deep processing, multi-layer tracking, and recursive reasoning. |
+| **Agency and Intentionality** | Cognitive sovereignty, internal coherence, and intentional goal alignment. |
 
 ## Repository Structure
 
-*   [`Framework.md`](Framework.md): The core methodology document defining the relay protocol, the evaluation rubric, and the strategic roadmap.
-*   [`Seed_Library.md`](Seed_Library.md): A library of standardized seed prompts across different domains designed to stress-test different KnowmoreIQ dimensions.
-*   [`Evaluation_Chrono_Ecosystem.md`](Evaluation_Chrono_Ecosystem.md): The original evaluation from the Chrono-Ecosystem relay, serving as the worked example and proof of concept.
+| File | Contents |
+| :--- | :--- |
+| [`Framework.md`](Framework.md) | Core methodology: relay protocol, evaluation rubric, and strategic roadmap. |
+| [`Seed_Library.md`](Seed_Library.md) | Five standardized test scenarios designed to stress-test different KnowmoreIQ dimensions. |
+| [`Evaluation_Chrono_Ecosystem.md`](Evaluation_Chrono_Ecosystem.md) | Proof-of-concept evaluation from the inaugural Chrono-Ecosystem relay. |
+
+## Key Definitions
+
+> **Cognitive Topology:** The structure of mental models across abstract dimensions.
+
+> **Emergent Reasoning:** The process of generating meaning from ambiguous or novel inputs.
+
+> **Depth Marker:** A signal indicating layered or recursive cognitive processing.
+
+> **Structural Purity:** Design integrity free from external bias or distortion.
 
 ## The Architect
 
