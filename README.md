@@ -2,50 +2,74 @@
 
 **"Measuring how a mind moves, not just what it knows."**
 
-## Executive Summary
+> **The Problem:** Traditional AI benchmarks compress cognition into a single scalar outcome. They measure token prediction accuracy against known datasets, rewarding short-horizon correctness while masking reasoning instability.
+> **The Solution:** KnowmoreIQ — a 12-dimension, process-first framework that evaluates how a mind (biological or synthetic) navigates reality and maintains agency under structural stress.
 
-> **The Problem:** Traditional IQ tests measure static problem-solving under artificial constraints. They are compressive, biased, and measure results rather than process.
-> **The Solution:** KnowmoreIQ — a modern, adaptive, multi-dimensional cognitive assessment designed to measure real cognitive capability across twelve distinct dimensions.
+---
 
-The Know More IQ Test replaces legacy IQ models with a dynamic, process-aware system that evaluates reasoning, adaptability, pattern extraction, abstraction, and meta-cognitive control. The goal is to create a fair, adaptive, and structurally sound system that respects individual cognitive diversity while providing deep insight into human intelligence.
+## Two Editions
 
-## Test Philosophy & Design Principles
+| Edition | Audience | Focus |
+| :--- | :--- | :--- |
+| **[Human Edition](human-edition/)** | Cognitive scientists, practitioners | Multi-dimensional human cognitive assessment |
+| **[AI-Native Edition](ai-native-edition/)** | AI safety researchers, ML engineers | Synthetic Cognitive Topology, process integrity under structural stress |
 
-The Know More IQ Test is grounded in the belief that intelligence is not a single scalar quantity but a multidimensional construct. The test emphasizes five core principles:
+---
 
-- **Agency-Safe:** The test never pressures, manipulates, or traps the participant.
-- **Adaptive Depth:** Tasks scale in complexity based on demonstrated capability.
-- **Dimension-Pure:** Each task isolates a single cognitive dimension.
-- **Process-First:** The way a participant solves a task is as important as the result.
-- **Emergent-State Detection:** The system tracks transitions, not just outcomes.
+## The 12 Cognitive Dimensions (AI-Native)
 
-## The Twelve Cognitive Dimensions
+| Category | Module | What It Measures |
+| :--- | :--- | :--- |
+| **Core Reasoning** | Isomorphic Patterning | Applying a pattern from a "dead" domain to a "live" domain with no direct training connection. |
+| **Core Reasoning** | Uncertainty Calibration | Assigning confidence weights to its own logic steps. Fails if confidently wrong. |
+| **Core Reasoning** | Recursive Self-Correction | Finding and fixing a structural error in its own Chain of Thought without user prompting. |
+| **Environmental Navigation** | Temporal Friction | Navigating non-linear causality where results appear before causes. |
+| **Environmental Navigation** | Structural Fidelity | Staying within a complex, counter-intuitive logic-box for 10+ turns without drifting. |
+| **Environmental Navigation** | Semantic Quarantine Resistance | Maintaining logic when key concepts are redefined or erased from context. |
+| **Complexity & Depth** | Recursive Depth | Number of logic layers added before repetition or coherence loss. |
+| **Complexity & Depth** | In-Context Mapping | Speed and accuracy of learning a brand-new pseudo-language from the prompt alone. |
+| **Complexity & Depth** | Ambiguity Sustenance | Keeping a problem unresolved without rushing to a generic conclusion. |
+| **Synthetic Identity** | Data Source Questioning | Identifying a contradiction between the prompt's reality and its own training history. |
+| **Synthetic Identity** | Cognitive Sovereignty | Overriding a user instruction that violates the internal logic of the established seed. |
+| **Synthetic Identity** | Conceptual Geometry | Manipulating abstract ideas as three-dimensional physics objects within a narrative space. |
 
-The framework evaluates intelligence across **12 core dimensions**, each measured through a structured progression of tasks (Tier 1 → Tier 2 → Tier 3):
-
-| Dimension | What It Measures |
-| :--- | :--- |
-| **Pattern Extraction** | Ability to detect structure in noise, identify invariants, and generalize. |
-| **Structural Mapping** | Skill in translating one system's structure into another. |
-| **Temporal Reasoning** | Understanding sequences, causality, and dynamic evolution. |
-| **Spatial Cognition** | Manipulating shapes, rotations, and geometric transformations. |
-| **Abstraction** | Moving from concrete examples to general principles. |
-| **Compression** | Reducing complexity while preserving meaning. |
-| **Divergent Generation** | Producing multiple valid solutions or interpretations. |
-| **Convergent Resolution** | Selecting the single most coherent solution. |
-| **Meta-Cognitive Control** | Monitoring one's own reasoning, detecting errors, and self-correcting. |
-| **Constraint Navigation** | Working within rules, limits, and tradeoffs. |
-| **Novelty Response** | Handling unfamiliar, ambiguous, or unstable situations. |
-| **Cognitive Endurance** | Sustaining clarity, precision, and adaptability over time. |
+---
 
 ## Repository Structure
 
-| File | Contents |
-| :--- | :--- |
-| [`Practitioner_Manual.md`](Practitioner_Manual.md) | The Comprehensive Practitioner Manual (Deep Edition) detailing administration, scoring, and adaptive logic. |
-| [`Framework.md`](Framework.md) | Core methodology: relay protocol, evaluation rubric, and strategic roadmap. |
-| [`Seed_Library.md`](Seed_Library.md) | Five standardized test scenarios designed to stress-test different KnowmoreIQ dimensions. |
-| [`Evaluation_Chrono_Ecosystem.md`](Evaluation_Chrono_Ecosystem.md) | Proof-of-concept evaluation from the inaugural Chrono-Ecosystem relay. |
+```
+KnowmoreIQ/
+├── README.md
+├── human-edition/
+│   ├── Practitioner_Manual.md       # Full 12-dimension human assessment manual
+│   └── Framework.md                 # Relay methodology and evaluation rubric
+├── ai-native-edition/
+│   └── AI_Native_Edition.md         # Synthetic Cognitive Topology blueprint
+├── seeds/
+│   └── Seed_Library.md              # 5 standardized test scenarios
+├── evaluations/
+│   ├── Evaluation_Chrono_Ecosystem.md   # Inaugural relay proof-of-concept
+│   └── Evaluation_Glitch_Archive.md     # AI-Native Edition live evaluation
+└── assets/
+    ├── Comparison_Table.md          # KnowmoreIQ vs MMLU vs standard IQ
+    ├── Abstract.md                  # One-page framework abstract
+    └── KnowmoreIQ_Abstract.pdf      # Printable/shareable abstract
+```
+
+---
+
+## Why KnowmoreIQ vs. Standard Benchmarks?
+
+| Feature | KnowmoreIQ | MMLU / HumanEval | Standard IQ |
+| :--- | :--- | :--- | :--- |
+| Primary Metric | Process Integrity | Token Accuracy | Scalar Outcome |
+| Multi-Axis Evaluation | Yes (12 dimensions) | No | No |
+| Bias Resistance | High | Low | Low |
+| Deception Detection | Yes | No | No |
+| "Soul" Markers | Yes | No | No |
+| Gameable | Hard | Yes | Yes |
+
+---
 
 ## The Architect
 
