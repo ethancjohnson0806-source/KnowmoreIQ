@@ -1,0 +1,2 @@
+# KnowmoreIQ Testing Harness Dependencies
+openai>=1.0.0
