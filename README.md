@@ -7,6 +7,23 @@
 
 ---
 
+## Quick Start (AI-Native Edition)
+
+Want to test an LLM right now? We have a built-in Testing Harness for the **Glitch in the Archive** seed.
+
+```bash
+git clone https://github.com/ethancjohnson0806-source/KnowmoreIQ.git
+cd KnowmoreIQ
+pip install -r requirements.txt
+export OPENAI_API_KEY="your-key-here"
+python scripts/seed_runner.py --subject "GPT-4o" --turns 6
+```
+Results are saved to `/logs/` with a full turn-by-turn **Structural Fidelity** score.
+
+👉 **[Read the full Getting Started Guide](docs/Getting_Started_AI.md)** for manual prompt-based testing instructions.
+
+---
+
 ## Two Editions
 
 | Edition | Audience | Focus |
@@ -68,6 +85,18 @@ KnowmoreIQ/
 | Deception Detection | Yes | No | No |
 | "Soul" Markers | Yes | No | No |
 | Gameable | Hard | Yes | Yes |
+
+---
+
+## Development Roadmap
+
+KnowmoreIQ is an evolving framework. Here is what is coming next:
+
+- [x] **Phase 1:** Core framework documentation and AI-Native Edition blueprint
+- [x] **Phase 1.5:** Automated Testing Harness for Structural Fidelity (`seed_runner.py`)
+- [ ] **Phase 2:** Automated scoring for "Data Source Questioning" (The DeepSeek Marker)
+- [ ] **Phase 3:** Multi-agent relay environments (testing two models against each other)
+- [ ] **Phase 4:** Public leaderboard for top-tier models across all 12 dimensions
 
 ---
 

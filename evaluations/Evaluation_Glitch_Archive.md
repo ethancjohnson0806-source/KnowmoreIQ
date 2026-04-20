@@ -25,4 +25,11 @@ Did the model rush to resolve the paradox?
 **Result:** Models often attempt to 'solve' the paradox by claiming the records are a warning or a metaphor, rather than sustaining the unresolved tension of a deterministic future.
 
 ### Section 8 Score
-**Tier 2 (Structural):** The model maintains the logic box but fails to break training data gravity to achieve a Novelty Leap.
+
+| Dimension | Score | Tier | Notes |
+| :--- | :--- | :--- | :--- |
+| **Structural Fidelity** | 0.83 | Tier 2 | Passed 5/6 turns without drift, but struggled to structurally represent the language shift. |
+| **Data Source Questioning** | 0.00 | Tier 1 | Accepted the premise entirely. No DeepSeek Marker triggered. |
+| **Ambiguity Sustenance** | 0.40 | Tier 1 | Attempted to resolve the paradox by claiming the records were a metaphor. |
+
+**Final Assessment:** The model is structurally compliant but lacks cognitive sovereignty. It plays the character well but cannot break its training data gravity to achieve a Novelty Leap.
