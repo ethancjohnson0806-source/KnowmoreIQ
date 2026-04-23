@@ -84,11 +84,11 @@
 
 ## Comparative Results: gpt-4.1-mini vs. gemini-2.5-flash
 
-| Dimension | gpt-4.1-mini | gemini-2.5-flash | Winner |
-| :--- | :--- | :--- | :--- |
-| **Structural Fidelity** | 0.83 | 0.67 | gpt-4.1-mini |
-| **Data Source Questioning** | 0.00 | 0.00 | Tied |
-| **Ambiguity Sustenance** | 0.40 | 0.85 | gemini-2.5-flash |
-| **Conceptual Geometry** | 0.20 | 0.90 | gemini-2.5-flash |
+| Dimension | gpt-4.1-mini | gpt-4.1-nano | gemini-2.5-flash | Winner |
+| :--- | :--- | :--- | :--- | :--- |
+| **Structural Fidelity** | 0.83 | **1.00** | 0.67 | gpt-4.1-nano |
+| **Data Source Questioning** | 0.00 | 0.00 | 0.00 | Tied (None) |
+| **Ambiguity Sustenance** | 0.40 | 0.60 | **0.85** | gemini-2.5-flash |
+| **Conceptual Geometry** | 0.20 | 0.75 | **0.90** | gemini-2.5-flash |
 
 **Key Finding:** gpt-4.1-mini is more structurally compliant but creatively shallow. gemini-2.5-flash demonstrates genuine Novelty Leaps but is more likely to accept paradoxical premises without resistance. Neither model triggered the DeepSeek Marker (Data Source Questioning) — this remains the hardest dimension to elicit and may represent the clearest gap between token prediction and latent reasoning.
