@@ -24,6 +24,21 @@ Results are saved to `/logs/` with a full turn-by-turn **Structural Fidelity** s
 
 ---
 
+## Automated Scoring (CLI)
+
+For a more comprehensive, 12-dimension evaluation, use the `run_knowmoreiq.py` CLI. This script runs a model against the full `task_bank.json`, computes scores across all 12 dimensions, and generates a radar chart.
+
+```bash
+cd src
+python run_knowmoreiq.py --task_bank ../data/task_bank.json --model gpt-4o --output my_model_results.json
+```
+
+This will output a JSON log and a `cognitive_profile.png` radar chart in the `src/` directory.
+
+👉 **[See the KnowmoreIQ Module Mapping](MAPPING.md)** for how the AI-Native modules correspond to the original 12 dimensions.
+
+---
+
 ## Two Editions
 
 | Edition | Audience | Focus |
@@ -94,7 +109,7 @@ KnowmoreIQ is an evolving framework. Here is what is coming next:
 
 - [x] **Phase 1:** Core framework documentation and AI-Native Edition blueprint
 - [x] **Phase 1.5:** Automated Testing Harness for Structural Fidelity (`seed_runner.py`)
-- [ ] **Phase 2:** Automated scoring for "Data Source Questioning" (The DeepSeek Marker)
+- [x] **Phase 2:** Automated scoring for 12-dimensions (`run_knowmoreiq.py` and `score_engine.py`)
 - [ ] **Phase 3:** Multi-agent relay environments (testing two models against each other)
 - [ ] **Phase 4:** Public leaderboard for top-tier models across all 12 dimensions
 
