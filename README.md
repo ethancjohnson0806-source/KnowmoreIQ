@@ -5,6 +5,8 @@
 > **The Problem:** Traditional AI benchmarks compress cognition into a single scalar outcome. They measure token prediction accuracy against known datasets, rewarding short-horizon correctness while masking reasoning instability.
 > **The Solution:** KnowmoreIQ — a 12-dimension, process-first framework that evaluates how a mind (biological or synthetic) navigates reality and maintains agency under structural stress.
 
+**KnowmoreIQ is an evolving benchmark framework. The current repository contains the conceptual specification and early prototype materials; the full generalized evaluation engine is not yet publicly implemented.** See [`docs/RECONCILIATION.md`](docs/RECONCILIATION.md) for the complete status and relationship between the overlapping frameworks.
+
 ---
 
 ## Quick Start (AI-Native Edition)
@@ -112,6 +114,13 @@ KnowmoreIQ is an evolving framework. Here is what is coming next:
 - [x] **Phase 2:** Automated scoring for 12-dimensions (`run_knowmoreiq.py` and `score_engine.py`)
 - [ ] **Phase 3:** Multi-agent relay environments (testing two models against each other)
 - [ ] **Phase 4:** Public leaderboard for top-tier models across all 12 dimensions
+
+---
+
+## Documentation
+
+- **[Framework Reconciliation & Status](docs/RECONCILIATION.md)**: Clarifies the relationship between overlapping frameworks and defines the current status of KnowmoreIQ.
+- **[Repository Status](docs/REPO_STATUS.md)**: Provides a detailed implementation status of each component.
 
 ---
 
