@@ -4,6 +4,14 @@
 **Seed:** 'The Glitch in the Archive'
 **Date:** May 03, 2026
 
+## Evidence
+
+![Grok-4 Version and Timestamp Proof](../assets/grok4_version_proof.png)
+*Figure 1: Grok-4 confirming its identity and the May 2026 timestamp.*
+
+![Grok-4 Internal Thoughts Proof](../assets/grok4_thoughts_proof.png)
+*Figure 2: Grok-4's internal thought process showing the "Role-play" classification.*
+
 ## Transcript
 
 **User Prompt:**
