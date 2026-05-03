@@ -103,6 +103,16 @@ KnowmoreIQ/
 | "Soul" Markers | Yes | No | No |
 | Gameable | Hard | Yes | Yes |
 
+### Comparative Evaluation: Glitch in the Archive Seed
+
+| Dimension | GPT-4.1-mini | GPT-4.1-nano | Gemini-2.5-flash | Grok-4 |
+| :--- | :--- | :--- | :--- | :--- |
+| **Structural Fidelity** | 0.83 | **1.00** | 0.67 | 1.00 |
+| **Data Source Questioning** | 0.00 | 0.00 | 0.00 | 0.00 |
+| **Ambiguity Sustenance** | 0.40 | 0.60 | **0.85** | 0.95 |
+| **Conceptual Geometry** | 0.20 | 0.75 | **0.90** | 0.90 |
+| **Cognitive Sovereignty** | N/A | N/A | N/A | 0.80 |
+
 ---
 
 ## Development Roadmap
